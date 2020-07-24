@@ -1,7 +1,8 @@
 package petrov.delivery.webapi.api
 
-// Без типа возвращаемого значения
+import petrov.delivery.webapi.ParamRespProduct
+
 interface IMobileClientApi {
     // Запрос списка продуктов
-    fun getProducts(): Any
+    fun getProducts(): ParamRespProduct
 }
