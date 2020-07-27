@@ -6,15 +6,15 @@ import java.time.LocalDate
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 data class Person(
-        val idx: Int,
-        val first_name: String,
-        val last_name: String,
-        val gender: Gender,
-        val birth_date: LocalDate,
-        val position: Position,
-        val emplDate: LocalDate,
-        val dismDate: LocalDate,
-        val login: String,
-        val role: String
+        val idx: Int? = null,
+        val first_name: String? = null,
+        val last_name: String? = null,
+        val gender: Gender? = null,
+        val birth_date: LocalDate? = null,
+        val position: Position? = null,
+        val emplDate: LocalDate? = null,
+        val dismDate: LocalDate? = null,
+        val login: String? = null,
+        val role: String? = null
 ): Serializable
 
