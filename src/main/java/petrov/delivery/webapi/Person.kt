@@ -7,10 +7,10 @@ import java.time.LocalDate
 @JsonIgnoreProperties(ignoreUnknown = true)
 data class Person(
         var idx: Int? = null,
-        var first_name: String? = null,
-        var last_name: String? = null,
+        var firstName: String? = null,
+        var lastName: String? = null,
         var gender: Gender? = null,
-        var birth_date: LocalDate? = null,
+        var birthDate: LocalDate? = null,
         var position: Position? = null,
         var emplDate: LocalDate? = null,
         var dismDate: LocalDate? = null,

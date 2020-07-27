@@ -7,5 +7,5 @@ import java.io.Serializable
 data class Position(
         var idx: Int? = null,
         var name: String? = null,
-        var short_name: String? = null
+        var shortName: String? = null
 ): Serializable
