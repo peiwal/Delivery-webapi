@@ -8,6 +8,7 @@ import java.time.LocalDate
 data class Person(
         var idx: Int? = null,
         var firstName: String? = null,
+        var middleName: String? = null,
         var lastName: String? = null,
         var gender: Gender? = null,
         var birthDate: LocalDate? = null,
@@ -15,6 +16,7 @@ data class Person(
         var emplDate: LocalDate? = null,
         var dismDate: LocalDate? = null,
         var login: String? = null,
+        var password: String? = null,
         var role: String? = null
 ): Serializable
 
